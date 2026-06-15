@@ -23,11 +23,11 @@ const monoFont = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Ting Lin (林汀) — Personal Website",
+  title: "Ting Lin",
   description:
     "Personal academic website of Ting Lin (林汀), Ph.D. student at Shanghai Jiao Tong University. Research on architecture-oriented abstractions for AI inference.",
   openGraph: {
-    title: "Ting Lin (林汀)",
+    title: "Ting Lin",
     description: "Ph.D. Student at Shanghai Jiao Tong University · iCAS Lab",
     type: "website",
   },

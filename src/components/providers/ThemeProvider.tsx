@@ -44,12 +44,7 @@ function setThemeValue(next: Theme) {
 
 function getPreferredTheme(): Theme {
 	const saved = parseTheme(localStorage.getItem("ctp-theme"));
-	return (
-		saved ??
-		(window.matchMedia("(prefers-color-scheme: light)").matches
-			? "latte"
-			: "mocha")
-	);
+	return saved ?? "mocha"; // Default to mocha (dark theme)
 }
 
 function subscribeTheme(listener: ThemeListener) {
